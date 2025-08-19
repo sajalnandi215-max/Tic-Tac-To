@@ -1,0 +1,76 @@
+body {
+   text-align: center;
+}
+.icon_section {
+    height:60vmin;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#score_section {
+    height: 30vmin;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#user_score,#com_score {
+    font-size: 7vmin;
+    font-family: cursive;
+    margin: 2vmin;
+}
+.icon{
+    width: 20vmin;
+    height: 20vmin;
+    background-color: lightgray;
+    border-radius: 50%;
+    margin: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-bottom: 30vmin;
+}
+#you{
+    margin: 2vmin
+}
+#com{
+    margin: 2vmin
+}
+#stone {
+    background-color: palevioletred;
+    background-image: url("https://up.yimg.com/ib/th/id/OIP.NMhMlw1aue9vzUepxWeCpAHaEK?pid=Api&rs=1&c=1&qlt=95&w=187&h=105");
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#paper {
+    background-color: rgb(108, 9, 90);
+    background-image: url("https://tse4.mm.bing.net/th/id/OIP.hZ19DgfkM-W7JY_9A1YFugHaEK?pid=Api&P=0&h=180");
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#scissors {
+    background-color: rgb(22, 72, 116);
+    background-image: url("https://tse3.mm.bing.net/th/id/OIP.dpwyIEpPJeU7qvokllhHBgHaEK?pid=Api&P=0&h=180");
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#inner {
+    padding: 2vmin 2vmin;
+    font-size: 2vmin;
+    background-color: #000000;
+    color: white;
+    border: none;
+    display: inline;
+    border-radius: 40px;
+}
+button:hover {
+    transform: scale(1.1);
+}
+.icon:hover {
+    transform: scale(1.1);
+    border: 0.5vmin solid black;
+    transform: scale(1.3);
+    }
